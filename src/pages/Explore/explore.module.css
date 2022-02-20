@@ -1,0 +1,86 @@
+.exploreContainer {
+  padding: 0 0.5em;
+  height: 100%;
+  overflow: none;
+  padding-top: 1.1em;
+  padding-bottom: 3.2em;
+  border-left: 1px solid beige;
+  border-right: 1px solid beige;
+}
+a {
+  font-size: 1.3em;
+}
+.exploreContainer h6 {
+  font-size: 0.975em;
+  font-weight: 600;
+  color: var(--textColor);
+  margin-top: 1.1em;
+}
+
+/* .head img {
+  width: 15px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+} */
+
+.showMore {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f4f4f4 !important;
+  border: none !important;
+  color: #aaaaaa;
+  box-shadow: 0px 2px 3px #cccccc;
+  font-weight: 600 !important;
+}
+.showMore span {
+  font-size: 1em;
+  margin-left: 5px;
+}
+.peopleContainer {
+  background-color: #ffffff;
+  margin: 0 -0.5em;
+  padding: 0.5em 0.5em 1.5em 0.5em;
+  position: relative;
+}
+
+.peopleContainer img {
+  width: 40px;
+  border-radius: 1.1em;
+}
+.exploreContainer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.peopleContainer h5 {
+  color: var(--textColor);
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+}
+.peopleContainer p {
+  color: var(--textColor);
+  font-size: 0.9em;
+  display: block;
+  height: fit-content;
+}
+.personDetails {
+  margin: 20px;
+  border: 1px solid beige;
+  padding: 20px;
+  width: 100%;
+  max-width: 450px;
+}
+.personDetails button {
+  border: none;
+  padding: 0.2em 1em;
+  font-size: 0.85em;
+  font-weight: 600;
+}

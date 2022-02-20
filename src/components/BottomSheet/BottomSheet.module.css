@@ -1,0 +1,66 @@
+.BottomSheetChontainer {
+  background-color: #ffffff;
+  border-radius: 1.5em 1.5em 0 0;
+  padding: 1.5em 1em;
+  position: relative;
+  height: 100%;
+}
+.topic_btn {
+  text-align: right !important;
+}
+.switch_line {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 35px;
+  background-color: #cccccc;
+}
+.topic_btn button {
+  background-color: transparent;
+  border: none;
+  color: #28ae61;
+}
+.selectRomm {
+  border-bottom: 1px solid #cccccc;
+  padding: 1.5em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.selectRomm button {
+  border: none;
+  background-color: transparent;
+  border-radius: 1em;
+  padding: 0.5em 1.3em 0.2em 1.3em;
+  color: var(--textColor);
+  line-height: 1.2;
+}
+.selectRomm button.active {
+  border: 1px solid lightseagreen;
+  background-color: lightblue;
+}
+.selectRomm button div {
+  background-color: lightseagreen;
+  border-radius: 1.5em;
+}
+.selectRomm button svg {
+  font-size: 4em;
+}
+.BottomSheetChontainer p {
+  font-size: 1em;
+  color: var(--textColor);
+  text-align: center;
+  font-weight: 600;
+}
+.letGoBtn {
+  font-size: 1.3em;
+  font-weight: 600;
+  border: none;
+  border-radius: 2em;
+  color: #ffffff;
+  background-color: #28ae61;
+  padding: 0.5em 2em;
+  text-align: center;
+}
