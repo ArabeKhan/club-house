@@ -14,13 +14,13 @@ export default function Header() {
         <img src={img} alt="not" />
       </Link>
       <div className={styles.nav_items}>
-        <Link to="/friends_invite">
+        <Link to="#">
           <img src={img2} alt="" />
         </Link>
-        <Link to="/upcoming">
+        <Link to="#">
           <img src={img3} alt="" />
         </Link>
-        <Link to="/activity">
+        <Link to="#">
           <img src={img4} alt="" />
         </Link>
         <Link to="/profile">
