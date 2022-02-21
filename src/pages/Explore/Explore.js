@@ -6,7 +6,7 @@ import img from "../../images/user-img.jpg";
 import { BsArrowDown, BsArrowLeftCircleFill } from "react-icons/bs";
 
 export default function Explore() {
-  const { people, conversation } = data;
+  const { people } = data;
   return (
     <div className={styles.exploreContainer}>
       <Link to="/home">

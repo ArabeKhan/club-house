@@ -59,6 +59,8 @@ export default function Home() {
         sheetVisible={sheetCreateRoom}
         cardDetail={newRoomData}
         setItemVisible={(item) => setItemVisible(item)}
+        itemVisible={itemVisible}
+        setCardId={setCardId}
       />
     </>
   );
